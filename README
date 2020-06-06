@@ -1,2 +1,4 @@
+Note: This whole folder resides in the default icinga2 server installation at /etc/icinga2/zones.d
+
 Please check the documentation for more details:
 https://icinga.com/docs/icinga2/latest/doc/06-distributed-monitoring/
