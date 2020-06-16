@@ -38,8 +38,10 @@ function parameters:
  
  	}
  
-  These are some examples of postexit scripts, they are executed remote side
-  so they should be written in the same environment language.
+  These are some examples of optional postexit scripts.
+  
+  As these are sequentially executed remote side, they should be written in the same
+  environment language, and preceded as shown with a either a semi-colon or ampersand character.
  
   Powershell:
   
