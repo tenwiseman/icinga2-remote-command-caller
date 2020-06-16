@@ -43,11 +43,11 @@ function parameters:
  
   Powershell:
   
- 	 # change 'unknown' status to 'warning' status.
+ 	# change 'unknown' status to 'warning' status.
     ;if ($lastexitcode -eq 3) {exit 1} else {exit $lastexitcode}"
  
   CMD:
  
- 	 # change 'unknown' status to 'warning' status
- 	  & IF ERRORLEVEL 3 EXIT /B 1 ELSE EXIT /B !ERRORLEVEL"
+ 	# change 'unknown' status to 'warning' status
+ 	& IF ERRORLEVEL 3 EXIT /B 1 ELSE EXIT /B !ERRORLEVEL"
  
