@@ -4,8 +4,8 @@ any returned results.
 
 remote_command_caller() parameters:
 
- 	lang(string) : Shell environment language. either 'powershell' or 'cmd'.
- 		Add the string 'commandline' to view the actual command line that would be sent
+ 	lang(string) : Shell environment language. Either 'powershell' or 'cmd'.
+ 		Add the string 'commandline' to debug view the actual command line that would be sent.
  
  	executable(string) : full path name of the external command.
  		For CMD, this should be wrapped in double quotes \"
