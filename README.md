@@ -1,9 +1,9 @@
 # icinga2-remote-command-caller
-When using Icinga2 in a distributed master configuration, this icinga function is a wrapper for executing both PowerShell and CMD commands in the remote environment, passing run-time parameters and optionally running a postexit script on the command's returned results
+When using Icinga2 in a distributed master configuration, this icinga function is a useful wrapper for executing both PowerShell and CMD commands in the remote environment, passing run-time parameters and optionally running a postexit script on the command's returned results
 
 parameters:
- 	lang(string) : either 'powershell' or 'cmd'.
- 		Shell environment language
+
+ 	lang(string) : Shell environment language. either 'powershell' or 'cmd'.
  		Add the string 'commandline' to view the actual command line that would be sent
  
  	executable(string) : full path name of the external command.
