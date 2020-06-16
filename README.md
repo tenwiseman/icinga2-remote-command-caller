@@ -9,7 +9,7 @@ function parameters:
  
  	executable(string) : full path name of the external command.
  		For CMD, this should be wrapped in double quotes \"
- 		For PowerShell, this should be wrapped in single '
+ 		For PowerShell, this should be wrapped in single quotes '
  
  	postexit(string) : the postexit script string, see below
   
